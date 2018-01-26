@@ -8,7 +8,7 @@ public class AdditionOperation extends OperationCommandBase {
 
     public float currentValue;
 
-    public AdditionOperation(float baseValue, float currentValue) {
+    public AdditionOperation(float baseValue) {
         super(baseValue);
         this.currentValue = baseValue;
     }

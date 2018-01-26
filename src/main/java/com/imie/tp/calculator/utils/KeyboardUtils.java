@@ -6,7 +6,7 @@ public final class KeyboardUtils {
 
     private static Scanner keyboard;
 
-    public static String readFromKeyboard(String displayAsk) {
+    public String readFromKeyboard(String displayAsk) {
         keyboard = new Scanner(System.in);
 
         System.out.println(displayAsk);
