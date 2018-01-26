@@ -1,1 +1,12 @@
-// TODO
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'junit:junit:4.12'
+}
